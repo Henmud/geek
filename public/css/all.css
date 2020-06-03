@@ -1,0 +1,137 @@
+.main{
+	font-family: 'Roboto';
+}
+
+
+.banner{
+	position: absolute;
+	height: 13%;
+    top: 0px;
+  	left:0;
+ 	width:100%; 
+ 	background-color: #B22222;
+ }
+
+
+ .pic{
+ 	font-weight: bold;
+ 	font-size: 700%;
+ 	position: absolute;
+ 	text-align: center;
+ 	right: 0%;
+ 	height: 40%;
+ 	width: 40%;
+ 	top: -1%;
+ }
+
+
+ .search-box
+{
+margin-top: 1em;
+left: 1%;
+display: flex;
+position: absolute;
+background-color: #FFFFFF;
+padding: 1%;
+height: 2%;
+border: 2px solid #000000;
+}
+
+
+.search-btn
+{
+display: flex;
+position: absolute;
+justify-content: left;
+align-items: center;
+color: #FFFFFF;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #000000;
+text-decoration: none;
+}
+
+
+.search-txt
+{
+border: none;
+outline: none;
+background: none;
+padding: 0;
+color: #000000;
+font-size: 16px;
+transition: .4s;
+line-height: 40px;
+width: 0;
+}
+
+
+.search-box:hover .search-txt
+{
+width: 830px;
+padding: 0px;
+}
+
+ 
+.manga1{
+    display: flex;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 100px;
+    padding: 150px; 100px
+    text-align: right;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 20px;
+
+}
+.tkg1{
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top: 0px;
+    text-align: right;
+       
+}
+.manga2{
+    display: flex;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 200px;
+    padding: 150px; 100px
+    text-align: right;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 20px;
+
+}
+.tkg2{
+    position: absolute;
+    display: flex;
+    left: 1250px;
+    top: 100px;
+    text-align: right;
+       
+}
+.manga3{
+    display: flex;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 100px;
+    padding: 150px; 100px
+    text-align: right;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 20px;
+
+}
+.tkg3{
+    position: absolute;
+    display: flex;
+    left: 700px;
+    top: 0px;
+    text-align: right;
+       
+}
+

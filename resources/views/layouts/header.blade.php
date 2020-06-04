@@ -2,7 +2,6 @@
 <html>
 <head>
 	<title>GeekStore</title>
-	<link rel="stylesheet" href="css/Style.css">
 	<script src="https://kit.fontawesome.com/ca0fae56c5.js"> </script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 </head>

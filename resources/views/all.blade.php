@@ -1,6 +1,9 @@
-
+@extends('layouts.header')
+@section('content')
+<head>
+	<link rel="stylesheet" href="css/all.css">
+</head>
 <!--манга-->
-
 	<div class="manga1">
 		 <div class="tkg1">
              <a href="tkgtom1.html" class="tkg1">
@@ -26,7 +29,7 @@
     </div>
         
 
-
+@endsection
 
 
 

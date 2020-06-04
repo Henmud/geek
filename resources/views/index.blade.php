@@ -1,6 +1,8 @@
 @extends('layouts.header')
 @section('content')
-
+<head>
+	<link rel="stylesheet" href="css/Style.css">
+</head>
 	<!--inform-link-->
 	<div class="geek">GEEK</div>
 	<div class="store">STORE</div>
@@ -8,8 +10,8 @@
 
 	<div class="inform-link">
 		
-		<div class="pos"><a href="all.html" class="inform-btn read">Посмотреть</a></div>
-		<div class="kup"><a href="all.html" class="inform-btn shop">Купить сейчас</a></div>
+		<div class="pos"><a href="all" class="inform-btn read">Посмотреть</a></div>
+		<div class="kup"><a href="all" class="inform-btn shop">Купить сейчас</a></div>
 		
 	</div>
 

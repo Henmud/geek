@@ -12,6 +12,6 @@ class ApiController extends Controller
     
     public function allAction(Request $requset)
     {
-        return view('index');
+        return view('all');
     }
 }

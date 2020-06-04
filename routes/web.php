@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', action: 'ApiController@indexAction');
-});
+Route::get('/', 'ApiController@indexAction');
 
 
-Route::get('/all', action: 'ApiController@allAction');
-});
+
+Route::get('/all', 'ApiController@allAction');

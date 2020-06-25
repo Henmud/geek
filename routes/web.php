@@ -18,3 +18,6 @@ Route::get('/', 'ApiController@indexAction');
 
 
 Route::get('/all', 'ApiController@allAction');
+
+
+Route::get('/getBackets', 'ApiController@getBackets'

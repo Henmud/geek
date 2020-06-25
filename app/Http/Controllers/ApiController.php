@@ -14,4 +14,8 @@ class ApiController extends Controller
     {
         return view('all');
     }
+    public function getBackets(Request $request)
+    { 
+        return (new BacketController())->show();
+    }
 }
